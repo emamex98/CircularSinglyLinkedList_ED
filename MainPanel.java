@@ -20,7 +20,7 @@ class MainPanel extends JPanel implements ActionListener{
     this.map = map;
     stopIndex = 0;
 
-    this.add(new JLabel("<html><center><br><b>Ruleta 2<br>Emanuel Estrada Larios<br>Circular Singly Linked List</b><br><br>Problema: Se necesitan crear mapas de las rutas de transporte urbano<br>para colocarse en cada parada.<br><br>Ingrese el nombre de la parada por agregar/borrar:<br></center></html>"));
+    this.add(new JLabel("<html><center><br><b>Ruleta 2<br>Emanuel Estrada Larios<br>Circular Singly Linked List</b><br><br>Problema: Se necesitan crear mapas de las rutas de transporte urbano<br>para colocarse en cada parada. Este programa crea listas<br>uniligadas circulares para ilustrar las paradas de la ruta.<br><br>Ingrese el nombre de la parada por agregar/borrar:<br></center></html>"));
 
 
     this.tfNombreParada = new JTextField(20);

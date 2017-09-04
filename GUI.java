@@ -4,7 +4,7 @@ import java.awt.*;
 class GUI extends JFrame{
 
   public GUI(){
-    super("Merge Sort");
+    super("Circular Singly Linked List");
     this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     this.setSize(500,610);
 
