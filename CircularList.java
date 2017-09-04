@@ -47,7 +47,7 @@ class CircularList<Type> {
   public void deleteItem(int position){
     if(this.listSize != 0) {
       Node tmp = this.head;
-      for (int i=1; i<position-1; i++) {
+      for (int i=0; i<position; i++) {
         tmp = tmp.next;
       }
       tmp.next = tmp.next.next;
@@ -79,8 +79,14 @@ class CircularList<Type> {
   public void printNext(){
     if(this.listSize != 0) {
       System.out.println(this.currentIndex.data);
-      this.currentIndex = this.currentIndex.next;  
+      this.currentIndex = this.currentIndex.next;
     }
+  }
+
+  ////////////////////////////////////////////////////////
+
+  public int getListSize(){
+    return this.listSize;
   }
 
 }
